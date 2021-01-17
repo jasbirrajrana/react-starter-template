@@ -4,7 +4,6 @@ const App = () => {
   return (
     <>
       <h1>React stater Template 🚀 </h1>
-      <a href="#">testing link</a>
     </>
   );
 };
