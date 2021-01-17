@@ -35,7 +35,7 @@ Follow the following steps to get development environment running.
 - Clone _'react-starter-template'_ repository from GitHub
 
   ```bash
-  git clone https://github.com/<username>/react-starter.git
+  git clone https://github.com/<username>/react-starter-template.git
   ```
 
 - Install node modules
