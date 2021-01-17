@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+//font declaration
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-size: 62.5%; /* to make 1rem = 10px */
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+**/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
